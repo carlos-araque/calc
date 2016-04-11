@@ -4,6 +4,9 @@
 <title>Ejemplo</title>
 <meta charset="utf-8">
 <script type="text/javascript">
+function raiz(){
+  num.value = (Math.sqrt(+num.value));
+}
 function vaciar () {
   document.getElementById("n1").value = "";
 }
@@ -22,6 +25,10 @@ function cubo() {
   <input type="text" id="n1" onclick="vaciar()"><p>
 
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
+<<<<<<< HEAD
     <button onclick="cubo()"> x<sup>3</sup> </button>
+=======
+  <button onClick="raiz()">sqrt(x)</button>
+>>>>>>> master
 </body>
 </html>
